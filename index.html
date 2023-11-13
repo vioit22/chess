@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2016/03/31/18/40/chess-1294548_1280.png" type="x-image/icon">
+    <title>Chess Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Chess Game</h1>
+        <div class="board" id="board"></div>
+            <div class="buttons">
+                <button class="play-again">Play Again</button>
+                <button class="set-pos">Set Position</button>
+                <button class="flip-board">Flip Board</button>
+            </div>
+        <div id="move-history" class="move-history"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/chessboard-1.0.0.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+</body>
+</html>
